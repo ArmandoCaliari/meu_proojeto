@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div classsName= "bg-slate-400">
+    <>
       <nav className="flex p-4 bg-slate-800">
         <ul className="flex gap-20" >
           <li>
@@ -25,6 +25,6 @@ export default function Home() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   )
 }
